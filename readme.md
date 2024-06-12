@@ -19,6 +19,6 @@ Sistem Informasi Peminjaman Ruang dan Barang
 - Calendar<br>
 
 ## Pluggin 
-- barryvdh/laravel-dompdf
-- anhskohbo/no-captcha
-- maddhatter/laravel-fullcalendar
+- <a href="https://github.com/barryvdh/laravel-dompdf">barryvdh/laravel-dompdf</a>
+- <a href="https://github.com/anhskohbo/no-captcha">anhskohbo/no-captcha</a>
+- <a href="https://github.com/maddhatter/laravel-fullcalendar">maddhatter/laravel-fullcalendar</a>
