@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    Options -Indexes
+    
+    
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    <Files ~ "\.(env|json|config.js|md|gitignore|gitattributes|lock)$">
+        Order allow,deny
+        Deny from all
+    </Files>
+    
+    <Files ~ "(artisan)$">
+        Order allow,deny
+        Deny from all
+    </Files>
+</IfModule>
